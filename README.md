@@ -1,2 +1,2 @@
 # Indoor_Positioning
-Radar_Trace_GUI_with_GTK
+receive radar point coordinates to draw the moving targets' trace with GTK
