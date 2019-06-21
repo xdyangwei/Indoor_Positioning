@@ -25,6 +25,10 @@ int main() {
 	split(v1, str, [](char a) {return a == '.'; });
 	for (auto xx : v1)
 		std::cout << xx << std::endl;
+	auto z = join(v1,"*");
+	std::cout << z << std::endl;
+	auto z1 = join_if(v1, "+", [](std::string s) {return s == "tt"; });
+	std::cout << z1 << std::endl;
 	std::cout << replace_nth_copy(str,"y",2,"w") << std::endl;
 	getchar();
 }
