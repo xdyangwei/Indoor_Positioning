@@ -31,7 +31,7 @@
     <property name="geometry">
      <rect>
       <x>50</x>
-      <y>90</y>
+      <y>80</y>
       <width>80</width>
       <height>25</height>
      </rect>
@@ -40,27 +40,40 @@
      <string>disconnect</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_3">
+   <widget class="QTextEdit" name="textEdit">
     <property name="geometry">
      <rect>
-      <x>280</x>
+      <x>260</x>
       <y>30</y>
-      <width>80</width>
+      <width>104</width>
+      <height>71</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>149</x>
+      <y>30</y>
+      <width>101</width>
       <height>25</height>
      </rect>
     </property>
     <property name="text">
-     <string>close</string>
+     <string>video display on</string>
     </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit">
+   <widget class="QPushButton" name="pushButton_3">
     <property name="geometry">
      <rect>
-      <x>150</x>
-      <y>30</y>
-      <width>104</width>
-      <height>31</height>
+      <x>149</x>
+      <y>80</y>
+      <width>101</width>
+      <height>25</height>
      </rect>
+    </property>
+    <property name="text">
+     <string>video display off</string>
     </property>
    </widget>
   </widget>
@@ -92,22 +105,5 @@
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <resources/>
- <connections>
-  <connection>
-   <sender>pushButton_3</sender>
-   <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>close()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>319</x>
-     <y>81</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>199</x>
-     <y>149</y>
-    </hint>
-   </hints>
-  </connection>
- </connections>
+ <connections/>
 </ui>
